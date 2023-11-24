@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NET_Helper</RootNamespace>
     <AssemblyName>NET Helper</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile>
@@ -37,13 +37,13 @@
   <ItemGroup>
     <Reference Include="Dialogs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Dialogs\1.0\Dialogs\bin\Release\Dialogs.dll</HintPath>
+      <HintPath>bin\Release\Dialogs.dll</HintPath>
     </Reference>
     <Reference Include="Logger">
-      <HintPath>..\..\..\Logger\1.0\Logger\bin\Release\Logger.dll</HintPath>
+      <HintPath>..\..\..\Class-Logger\1.0\Logger\bin\Release\Logger.dll</HintPath>
     </Reference>
     <Reference Include="MyApplication">
-      <HintPath>..\..\..\MyApplication\MyApplication\bin\Release\MyApplication.dll</HintPath>
+      <HintPath>..\..\..\Class-MyApplication\MyApplication\bin\Release\MyApplication.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
